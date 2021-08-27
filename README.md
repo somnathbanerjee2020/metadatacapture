@@ -17,3 +17,9 @@ The solution ingests a data file and captures the following metadata:
 Database: MySQL running on AWS RDS
 Execution Script: Python
 
+# Installation Needed
+Install the following packages if not available
+```
+pip install pyyaml
+pip install mysql
+```
