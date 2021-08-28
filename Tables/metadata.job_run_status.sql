@@ -1,3 +1,5 @@
+drop table metadata.job_run_status;
+
 create table metadata.job_run_status
 (
 	run_id             INT NOT NULL AUTO_INCREMENT,

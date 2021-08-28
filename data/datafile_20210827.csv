@@ -1,0 +1,25 @@
+account_id,account_name,account_revenue,account_manager,revenue_year
+1234,Account Name1,"50,000,000",Manager10,2021
+1235,Account Name2,"60,000,000",Manager9,2021
+1236,Account Name3,"70,000,000",Manager8,2021
+1237,Account Name4,"80,000,000",Manager4,2021
+1238,Account Name5,"90,000,000",Manager5,2021
+1239,Account Name6,"50,000,000",Manager6,2021
+1240,Account Name7,"60,000,000",Manager7,2021
+1241,Account Name8,"70,000,000",Manager16,2021
+1242,Account Name9,"80,000,000",Manager9,2021
+1243,Account Name10,"90,000,000",Manager10,2021
+1244,Account Name11,"50,000,000",Manager11,2021
+1245,Account Name12,"60,000,000",Manager2,2021
+1246,Account Name13,"70,000,000",Manager13,2021
+1247,Account Name14,"80,000,000",Manager14,2021
+1248,Account Name15,"90,000,000",Manager4,2021
+1249,Account Name16,"78,571,429",Manager16,2021
+1250,Account Name17,"79,642,857",Manager17,2021
+1251,Account Name18,"80,714,286",Manager18,2021
+1252,Account Name19,"81,785,714",Manager19,2021
+1253,Account Name20,"82,857,143",Manager1,2021
+1254,Account Name21,"83,928,571",Manager21,2021
+1255,Account Name22,"85,000,000",Manager3,2021
+1256,Account Name23,"86,071,429",Manager23,2021
+1257,Account Name24,"87,142,857",Manager24,2021

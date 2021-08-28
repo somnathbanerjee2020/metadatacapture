@@ -5,7 +5,9 @@
 
 
 # audit schema details
-auditdb: metadata
+#auditdb: metadata
+auditdb: data
 audituser: proc_mon/checkwork@metastore.cpogzsn5ewwn.ap-southeast-2.rds.amazonaws.com:3306/metadata
 
-
+# file details
+filepath: data\datafile_20210827.csv

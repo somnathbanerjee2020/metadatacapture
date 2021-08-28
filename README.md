@@ -22,4 +22,6 @@ Install the following packages if not available
 ```
 pip install pyyaml
 pip install mysql
+pip install mysql.connector
+
 ```
