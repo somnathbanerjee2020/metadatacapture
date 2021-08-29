@@ -20,17 +20,16 @@ The solution ingests all .csv files placed in the /data folder. The file name ne
 The target database server has two DB instances:
 - data: Hosts the target table for the data files. Table name
 ```
-account_table
+data.account_table
 ```
 - metadata: Hosts the metadata table which tracks and maintains the state of loads. Table name
 ```
-job_run_status
+metadata.job_run_status
 ```
 
+# Manual Installation Needed to execute
 
-# Manual Installation Needed
-
-The application needs a manual setup to be executed. The instructions below are for Windows machines.
+The application needs a manual setup to be executed. The instructions below are for Windows.
 
 - Install Python 3.x ( developed on Python 3.8.3)
 - Install / Update the following packages if not available
