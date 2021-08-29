@@ -41,4 +41,7 @@ pip install pandas
 pip install datetime
 ```
 - Install a database client. Suggested: [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+- Clone / download the repository and you're good to go!
 
+# Execution
+Once setup is completed, the load can be run by running the file scripts/load_file.py
