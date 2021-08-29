@@ -17,6 +17,15 @@ The solution ingests a data file and captures the following metadata:
 
 # Setup
 The solution ingests all .csv files placed in the /data folder. The file name needs to start with datafile_ and needs to have an extension of.csv. A template file has been provided in the folder for reference on the column structure.
+The target database server has two DB instances:
+- data: Hosts the target table for the data files. Table name
+```
+account_table
+```
+- metadata: Hosts the metadata table which tracks and maintains the state of loads. Table name
+```
+job_run_status
+```
 
 
 # Manual Installation Needed
