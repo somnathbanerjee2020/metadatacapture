@@ -17,7 +17,7 @@ import glob;
 rec_cnt=0
 
 # Load config
-stream = open('config\load_file_config.yaml', 'r')
+stream = open('C:/metadatacapture/config/load_file_config.yaml', 'r')
 configs=yaml.safe_load(stream)
 
 # Start / Load time
@@ -62,7 +62,7 @@ cnx = mysql.connector.connect(user='proc_mon', password='checkwork',
 cursor = cnx.cursor()
 
 #Reading Datafiles
-path = r'data'
+path = r'C:/metadatacapture/data'
 all_files = glob.glob(path + "/datafile_*.csv")
 
 li = []
