@@ -18,10 +18,12 @@ Database: MySQL running on AWS RDS
 Execution Script: Python
 
 # Installation Needed
-Install the following packages if not available
+Install / Update the following packages if not available
 ```
 pip install pyyaml
-pip install mysql
 pip install mysql.connector
+pip install pandas
+pip install datetime
 
 ```
+
