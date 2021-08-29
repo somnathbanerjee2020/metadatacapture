@@ -28,4 +28,5 @@ pip install mysql.connector
 pip install pandas
 pip install datetime
 ```
-- Install a database client. Suggested: [MySQL Workbench] https://dev.mysql.com/downloads/workbench/ 
+- Install a database client. Suggested: [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+
