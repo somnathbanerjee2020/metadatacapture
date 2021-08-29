@@ -19,7 +19,7 @@ Execution Script: Python
 
 The application needs a manual setup to be executed. The instructions below are for Windows machines.
 
-- Install Python 3.x 
+- Install Python 3.x ( developed on Python 3.8.3)
 - Install / Update the following packages if not available
 
 ```
@@ -28,4 +28,4 @@ pip install mysql.connector
 pip install pandas
 pip install datetime
 ```
-
+- Install a database client. Suggested: [MySQL Workbench] https://dev.mysql.com/downloads/workbench/ 
