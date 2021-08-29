@@ -44,8 +44,10 @@ pip install datetime
 - Clone / download the repository to C:/ and you're good to go!
 
 # Execution
-Once setup is completed, the load can be run by running the file scripts/load_file.py. Sample command:
+Once setup is completed, the load can be run by running the file scripts/load_file.py. Sample commands:
 ```
+cd C:\metadatacapture\scripts
+
 python load_file.py
 ```
 

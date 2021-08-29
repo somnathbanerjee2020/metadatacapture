@@ -27,8 +27,8 @@ load_st=('load_datafile',now,'Started')
 
 ################## Processing Start entered to metadata ###########################
 
-cnxmet = mysql.connector.connect(user='proc_mon', password='checkwork',
-                              host='metastore.cpogzsn5ewwn.ap-southeast-2.rds.amazonaws.com',
+cnxmet = mysql.connector.connect(user=configs['dbuser'], password=configs['dbpwd'],
+                              host=configs['dbhost'],
                               database=configs['auditdb'])
 cursor_st = cnxmet.cursor()
 
@@ -56,8 +56,8 @@ cursor_rd.close()
 ################## Loading Datafile Start ###########################
 
 #Create connection to load data. (Parameterize pending)
-cnx = mysql.connector.connect(user='proc_mon', password='checkwork',
-                              host='metastore.cpogzsn5ewwn.ap-southeast-2.rds.amazonaws.com',
+cnx = mysql.connector.connect(user=configs['dbuser'], password=configs['dbpwd'],
+                              host=configs['dbhost'],
                               database=configs['datadb'])
 cursor = cnx.cursor()
 

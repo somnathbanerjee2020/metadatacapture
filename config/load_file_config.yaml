@@ -8,3 +8,6 @@
 #auditdb: metadata
 datadb: data
 auditdb: metadata
+dbuser: proc_mon
+dbpwd: checkwork
+dbhost: metastore.cpogzsn5ewwn.ap-southeast-2.rds.amazonaws.com
