@@ -11,9 +11,13 @@ The solution ingests a data file and captures the following metadata:
 - Excution Status
 - Number of records loaded
 
-# Configuration
-Database: MySQL running on AWS RDS
-Execution Script: Python
+# Technologies used
+- Database: MySQL running on AWS RDS
+- Execution Language: Python
+
+# Setup
+The solution ingests all .csv files placed in the /data folder. The file name needs to start with datafile_ and needs to have an extension of.csv. A template file has been provided in the folder for reference on the column structure.
+
 
 # Manual Installation Needed
 

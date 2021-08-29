@@ -63,7 +63,7 @@ cursor = cnx.cursor()
 
 #Reading Datafiles
 path = r'data'
-all_files = glob.glob(path + "/*.csv")
+all_files = glob.glob(path + "/datafile_*.csv")
 
 li = []
 
@@ -72,7 +72,6 @@ for filename in all_files:
     li.append(df1)
 frame = pd.concat(li, axis=0, ignore_index=True)
 
-#data = pd.read_csv (r'data\datafile_20210827.csv')   
 df = pd.DataFrame(frame, columns= ['account_id','account_name','account_revenue','account_manager','revenue_year'])
 
 #Insert to table
